@@ -1,0 +1,1186 @@
+{
+  "parties": {
+    "10": "REPUBLICANOS",
+    "11": "PROGRESSISTAS",
+    "12": "PARTIDO DEMOCRÁTICO TRABALHISTA",
+    "13": "PARTIDO DOS TRABALHADORES",
+    "14": "PARTIDO MISSÃO",
+    "15": "MOVIMENTO DEMOCRÁTICO BRASILEIRO",
+    "22": "PARTIDO LIBERAL",
+    "23": "CIDADANIA",
+    "25": "PRD",
+    "27": "DEMOCRACIA CRISTÃ",
+    "29": "PCO",
+    "30": "PARTIDO NOVO",
+    "40": "PSB",
+    "43": "PARTIDO VERDE",
+    "44": "UNIÃO BRASIL",
+    "45": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA",
+    "50": "PARTIDO SOCIALISMO E LIBERDADE",
+    "55": "PSD",
+    "70": "AVANTE"
+  },
+  "candidates": {
+    "1_13": {
+      "numero": "13",
+      "nome": "LULA",
+      "cargoId": 1,
+      "cargoNome": "Presidente",
+      "partidoNumero": "13",
+      "partidoNome": "PARTIDO DOS TRABALHADORES",
+      "votosPdf": 88
+    },
+    "1_14": {
+      "numero": "14",
+      "nome": "RENAN SANTOS",
+      "cargoId": 1,
+      "cargoNome": "Presidente",
+      "partidoNumero": "14",
+      "partidoNome": "PARTIDO MISSÃO",
+      "votosPdf": 15
+    },
+    "1_22": {
+      "numero": "22",
+      "nome": "FLAVIO BOLSONARO",
+      "cargoId": 1,
+      "cargoNome": "Presidente",
+      "partidoNumero": "22",
+      "partidoNome": "PARTIDO LIBERAL",
+      "votosPdf": 156
+    },
+    "1_55": {
+      "numero": "55",
+      "nome": "RONALDO CAIADO",
+      "cargoId": 1,
+      "cargoNome": "Presidente",
+      "partidoNumero": "55",
+      "partidoNome": "PSD",
+      "votosPdf": 10
+    },
+    "1_70": {
+      "numero": "70",
+      "nome": "ESCRITOR AUGUSTO CURY",
+      "cargoId": 1,
+      "cargoNome": "Presidente",
+      "partidoNumero": "70",
+      "partidoNome": "AVANTE",
+      "votosPdf": 6
+    },
+    "6_1010": {
+      "numero": "1010",
+      "nome": "BETO PEREIRA",
+      "cargoId": 6,
+      "cargoNome": "Deputado Federal",
+      "partidoNumero": "10",
+      "partidoNome": "REPUBLICANOS",
+      "votosPdf": 15
+    },
+    "6_1011": {
+      "numero": "1011",
+      "nome": "JAIME VERRUCK",
+      "cargoId": 6,
+      "cargoNome": "Deputado Federal",
+      "partidoNumero": "10",
+      "partidoNome": "REPUBLICANOS",
+      "votosPdf": 9
+    },
+    "6_1012": {
+      "numero": "1012",
+      "nome": "NETO SANTOS",
+      "cargoId": 6,
+      "cargoNome": "Deputado Federal",
+      "partidoNumero": "10",
+      "partidoNome": "REPUBLICANOS",
+      "votosPdf": 9
+    },
+    "6_1022": {
+      "numero": "1022",
+      "nome": "ISA MARCONDES",
+      "cargoId": 6,
+      "cargoNome": "Deputado Federal",
+      "partidoNumero": "10",
+      "partidoNome": "REPUBLICANOS",
+      "votosPdf": 1
+    },
+    "6_1080": {
+      "numero": "1080",
+      "nome": "CORONEL BITTENCOURT",
+      "cargoId": 6,
+      "cargoNome": "Deputado Federal",
+      "partidoNumero": "10",
+      "partidoNome": "REPUBLICANOS",
+      "votosPdf": 5
+    },
+    "6_1111": {
+      "numero": "1111",
+      "nome": "DAGOBERTO NOGUEIRA",
+      "cargoId": 6,
+      "cargoNome": "Deputado Federal",
+      "partidoNumero": "11",
+      "partidoNome": "PROGRESSISTAS",
+      "votosPdf": 1
+    },
+    "6_1112": {
+      "numero": "1112",
+      "nome": "DELEGADO ANDRÉ MATSUSHITA",
+      "cargoId": 6,
+      "cargoNome": "Deputado Federal",
+      "partidoNumero": "11",
+      "partidoNome": "PROGRESSISTAS",
+      "votosPdf": 7
+    },
+    "6_1122": {
+      "numero": "1122",
+      "nome": "DR. LUIZ OVANDO",
+      "cargoId": 6,
+      "cargoNome": "Deputado Federal",
+      "partidoNumero": "11",
+      "partidoNome": "PROGRESSISTAS",
+      "votosPdf": 10
+    },
+    "6_1300": {
+      "numero": "1300",
+      "nome": "GISELLE MARQUES",
+      "cargoId": 6,
+      "cargoNome": "Deputado Federal",
+      "partidoNumero": "13",
+      "partidoNome": "PARTIDO DOS TRABALHADORES",
+      "votosPdf": 2
+    },
+    "6_1367": {
+      "numero": "1367",
+      "nome": "CAMILA JARA",
+      "cargoId": 6,
+      "cargoNome": "Deputado Federal",
+      "partidoNumero": "13",
+      "partidoNome": "PARTIDO DOS TRABALHADORES",
+      "votosPdf": 44
+    },
+    "6_1400": {
+      "numero": "1400",
+      "nome": "MAVI CUNHA",
+      "cargoId": 6,
+      "cargoNome": "Deputado Federal",
+      "partidoNumero": "14",
+      "partidoNome": "PARTIDO MISSÃO",
+      "votosPdf": 2
+    },
+    "6_1401": {
+      "numero": "1401",
+      "nome": "GERMANO CAIRES",
+      "cargoId": 6,
+      "cargoNome": "Deputado Federal",
+      "partidoNumero": "14",
+      "partidoNome": "PARTIDO MISSÃO",
+      "votosPdf": 3
+    },
+    "6_1441": {
+      "numero": "1441",
+      "nome": "KELLYANNE CORREA",
+      "cargoId": 6,
+      "cargoNome": "Deputado Federal",
+      "partidoNumero": "14",
+      "partidoNome": "PARTIDO MISSÃO",
+      "votosPdf": 2
+    },
+    "6_1444": {
+      "numero": "1444",
+      "nome": "RODRIGO CORREA",
+      "cargoId": 6,
+      "cargoNome": "Deputado Federal",
+      "partidoNumero": "14",
+      "partidoNome": "PARTIDO MISSÃO",
+      "votosPdf": 1
+    },
+    "6_1512": {
+      "numero": "1512",
+      "nome": "WELLISON MUCHIUTTI",
+      "cargoId": 6,
+      "cargoNome": "Deputado Federal",
+      "partidoNumero": "15",
+      "partidoNome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO",
+      "votosPdf": 1
+    },
+    "6_1515": {
+      "numero": "1515",
+      "nome": "DHARLENG CAMPOS",
+      "cargoId": 6,
+      "cargoNome": "Deputado Federal",
+      "partidoNumero": "15",
+      "partidoNome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO",
+      "votosPdf": 1
+    },
+    "6_2200": {
+      "numero": "2200",
+      "nome": "MARA CASEIRO",
+      "cargoId": 6,
+      "cargoNome": "Deputado Federal",
+      "partidoNumero": "22",
+      "partidoNome": "PARTIDO LIBERAL",
+      "votosPdf": 5
+    },
+    "6_2211": {
+      "numero": "2211",
+      "nome": "RODOLFO NOGUEIRA",
+      "cargoId": 6,
+      "cargoNome": "Deputado Federal",
+      "partidoNumero": "22",
+      "partidoNome": "PARTIDO LIBERAL",
+      "votosPdf": 8
+    },
+    "6_2222": {
+      "numero": "2222",
+      "nome": "MARCOS POLLON",
+      "cargoId": 6,
+      "cargoNome": "Deputado Federal",
+      "partidoNumero": "22",
+      "partidoNome": "PARTIDO LIBERAL",
+      "votosPdf": 49
+    },
+    "6_2234": {
+      "numero": "2234",
+      "nome": "TENENTE PORTELA",
+      "cargoId": 6,
+      "cargoNome": "Deputado Federal",
+      "partidoNumero": "22",
+      "partidoNome": "PARTIDO LIBERAL",
+      "votosPdf": 2
+    },
+    "6_2255": {
+      "numero": "2255",
+      "nome": "GIROTO",
+      "cargoId": 6,
+      "cargoNome": "Deputado Federal",
+      "partidoNumero": "22",
+      "partidoNome": "PARTIDO LIBERAL",
+      "votosPdf": 2
+    },
+    "6_2267": {
+      "numero": "2267",
+      "nome": "CASSY MONTEIRO",
+      "cargoId": 6,
+      "cargoNome": "Deputado Federal",
+      "partidoNumero": "22",
+      "partidoNome": "PARTIDO LIBERAL",
+      "votosPdf": 14
+    },
+    "6_3000": {
+      "numero": "3000",
+      "nome": "VICTORIA PEIXOTO",
+      "cargoId": 6,
+      "cargoNome": "Deputado Federal",
+      "partidoNumero": "30",
+      "partidoNome": "PARTIDO NOVO",
+      "votosPdf": 2
+    },
+    "6_3030": {
+      "numero": "3030",
+      "nome": "LUIZ ORCIRIO FIGUEIRÓ",
+      "cargoId": 6,
+      "cargoNome": "Deputado Federal",
+      "partidoNumero": "30",
+      "partidoNome": "PARTIDO NOVO",
+      "votosPdf": 2
+    },
+    "6_4333": {
+      "numero": "4333",
+      "nome": "MARQUINHOS TRAD",
+      "cargoId": 6,
+      "cargoNome": "Deputado Federal",
+      "partidoNumero": "43",
+      "partidoNome": "PARTIDO VERDE",
+      "votosPdf": 14
+    },
+    "6_4411": {
+      "numero": "4411",
+      "nome": "GERALDO RESENDE",
+      "cargoId": 6,
+      "cargoNome": "Deputado Federal",
+      "partidoNumero": "44",
+      "partidoNome": "UNIÃO BRASIL",
+      "votosPdf": 1
+    },
+    "6_4444": {
+      "numero": "4444",
+      "nome": "ROSE MODESTO",
+      "cargoId": 6,
+      "cargoNome": "Deputado Federal",
+      "partidoNumero": "44",
+      "partidoNome": "UNIÃO BRASIL",
+      "votosPdf": 26
+    },
+    "6_4525": {
+      "numero": "4525",
+      "nome": "NATAL GONZAGA",
+      "cargoId": 6,
+      "cargoNome": "Deputado Federal",
+      "partidoNumero": "45",
+      "partidoNome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA",
+      "votosPdf": 1
+    },
+    "6_4533": {
+      "numero": "4533",
+      "nome": "DR. VICTOR ROCHA",
+      "cargoId": 6,
+      "cargoNome": "Deputado Federal",
+      "partidoNumero": "45",
+      "partidoNome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA",
+      "votosPdf": 4
+    },
+    "6_4545": {
+      "numero": "4545",
+      "nome": "VIVIANE LUIZA",
+      "cargoId": 6,
+      "cargoNome": "Deputado Federal",
+      "partidoNumero": "45",
+      "partidoNome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA",
+      "votosPdf": 5
+    },
+    "6_4599": {
+      "numero": "4599",
+      "nome": "PROFESSOR JUARI",
+      "cargoId": 6,
+      "cargoNome": "Deputado Federal",
+      "partidoNumero": "45",
+      "partidoNome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA",
+      "votosPdf": 2
+    },
+    "6_5050": {
+      "numero": "5050",
+      "nome": "FÁTIMA SOUZA",
+      "cargoId": 6,
+      "cargoNome": "Deputado Federal",
+      "partidoNumero": "50",
+      "partidoNome": "PARTIDO SOCIALISMO E LIBERDADE",
+      "votosPdf": 1
+    },
+    "6_5051": {
+      "numero": "5051",
+      "nome": "FÁBIO RODRIGUES",
+      "cargoId": 6,
+      "cargoNome": "Deputado Federal",
+      "partidoNumero": "50",
+      "partidoNome": "PARTIDO SOCIALISMO E LIBERDADE",
+      "votosPdf": 1
+    },
+    "6_7000": {
+      "numero": "7000",
+      "nome": "DOMICIO JUNIOR",
+      "cargoId": 6,
+      "cargoNome": "Deputado Federal",
+      "partidoNumero": "70",
+      "partidoNome": "AVANTE",
+      "votosPdf": 2
+    },
+    "6_7022": {
+      "numero": "7022",
+      "nome": "FRAN DA SAÚDE",
+      "cargoId": 6,
+      "cargoNome": "Deputado Federal",
+      "partidoNumero": "70",
+      "partidoNome": "AVANTE",
+      "votosPdf": 1
+    },
+    "7_10000": {
+      "numero": "10000",
+      "nome": "PEDROSSIAN NETO",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "10",
+      "partidoNome": "REPUBLICANOS",
+      "votosPdf": 2
+    },
+    "7_10102": {
+      "numero": "10102",
+      "nome": "ALESSANDRA ALENCAR",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "10",
+      "partidoNome": "REPUBLICANOS",
+      "votosPdf": 1
+    },
+    "7_10123": {
+      "numero": "10123",
+      "nome": "ANTONIO VAZ",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "10",
+      "partidoNome": "REPUBLICANOS",
+      "votosPdf": 8
+    },
+    "7_10150": {
+      "numero": "10150",
+      "nome": "RENATO CÂMARA",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "10",
+      "partidoNome": "REPUBLICANOS",
+      "votosPdf": 1
+    },
+    "7_10181": {
+      "numero": "10181",
+      "nome": "SARGENTO CYNTHIA",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "10",
+      "partidoNome": "REPUBLICANOS",
+      "votosPdf": 1
+    },
+    "7_10222": {
+      "numero": "10222",
+      "nome": "BRUNO ORTIZ",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "10",
+      "partidoNome": "REPUBLICANOS",
+      "votosPdf": 5
+    },
+    "7_10456": {
+      "numero": "10456",
+      "nome": "MALU DO JULIANO VARELA",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "10",
+      "partidoNome": "REPUBLICANOS",
+      "votosPdf": 2
+    },
+    "7_10888": {
+      "numero": "10888",
+      "nome": "HERCULANO BORGES",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "10",
+      "partidoNome": "REPUBLICANOS",
+      "votosPdf": 5
+    },
+    "7_11000": {
+      "numero": "11000",
+      "nome": "SANTULLO DA TEREZA",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "11",
+      "partidoNome": "PROGRESSISTAS",
+      "votosPdf": 1
+    },
+    "7_11022": {
+      "numero": "11022",
+      "nome": "DRA SIRLEI RATIER",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "11",
+      "partidoNome": "PROGRESSISTAS",
+      "votosPdf": 1
+    },
+    "7_11100": {
+      "numero": "11100",
+      "nome": "CAROL MARQUEZ",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "11",
+      "partidoNome": "PROGRESSISTAS",
+      "votosPdf": 1
+    },
+    "7_11111": {
+      "numero": "11111",
+      "nome": "GERSON CLARO",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "11",
+      "partidoNome": "PROGRESSISTAS",
+      "votosPdf": 6
+    },
+    "7_11123": {
+      "numero": "11123",
+      "nome": "LONDRES MACHADO",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "11",
+      "partidoNome": "PROGRESSISTAS",
+      "votosPdf": 1
+    },
+    "7_11222": {
+      "numero": "11222",
+      "nome": "PROFESSOR MARCELO MIRANDA",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "11",
+      "partidoNome": "PROGRESSISTAS",
+      "votosPdf": 13
+    },
+    "7_11234": {
+      "numero": "11234",
+      "nome": "HELIO PELUFFO",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "11",
+      "partidoNome": "PROGRESSISTAS",
+      "votosPdf": 2
+    },
+    "7_11444": {
+      "numero": "11444",
+      "nome": "JAMILSON NAME",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "11",
+      "partidoNome": "PROGRESSISTAS",
+      "votosPdf": 8
+    },
+    "7_12333": {
+      "numero": "12333",
+      "nome": "ADRIANO PAULINO",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "12",
+      "partidoNome": "PARTIDO DEMOCRÁTICO TRABALHISTA",
+      "votosPdf": 1
+    },
+    "7_13111": {
+      "numero": "13111",
+      "nome": "ZECA DO PT",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "13",
+      "partidoNome": "PARTIDO DOS TRABALHADORES",
+      "votosPdf": 5
+    },
+    "7_13123": {
+      "numero": "13123",
+      "nome": "TIAGO BOTELHO",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "13",
+      "partidoNome": "PARTIDO DOS TRABALHADORES",
+      "votosPdf": 5
+    },
+    "7_13222": {
+      "numero": "13222",
+      "nome": "PROFESSORA BARTÔ",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "13",
+      "partidoNome": "PARTIDO DOS TRABALHADORES",
+      "votosPdf": 1
+    },
+    "7_13333": {
+      "numero": "13333",
+      "nome": "CLARINEU NOGUEIRA",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "13",
+      "partidoNome": "PARTIDO DOS TRABALHADORES",
+      "votosPdf": 1
+    },
+    "7_13613": {
+      "numero": "13613",
+      "nome": "PEDRO KEMP",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "13",
+      "partidoNome": "PARTIDO DOS TRABALHADORES",
+      "votosPdf": 9
+    },
+    "7_13700": {
+      "numero": "13700",
+      "nome": "LUIZA RIBEIRO",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "13",
+      "partidoNome": "PARTIDO DOS TRABALHADORES",
+      "votosPdf": 12
+    },
+    "7_13777": {
+      "numero": "13777",
+      "nome": "PROFESSORA GLEICE JANE",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "13",
+      "partidoNome": "PARTIDO DOS TRABALHADORES",
+      "votosPdf": 3
+    },
+    "7_15111": {
+      "numero": "15111",
+      "nome": "JUNIOR CORINGA",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "15",
+      "partidoNome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO",
+      "votosPdf": 14
+    },
+    "7_15123": {
+      "numero": "15123",
+      "nome": "ANDRÉ PUCCINELLI",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "15",
+      "partidoNome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO",
+      "votosPdf": 9
+    },
+    "7_15555": {
+      "numero": "15555",
+      "nome": "JUNIOR MOCHI",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "15",
+      "partidoNome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO",
+      "votosPdf": 1
+    },
+    "7_15715": {
+      "numero": "15715",
+      "nome": "ENFERMEIRO DANIEL",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "15",
+      "partidoNome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO",
+      "votosPdf": 3
+    },
+    "7_22000": {
+      "numero": "22000",
+      "nome": "GIANNI NOGUEIRA",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "22",
+      "partidoNome": "PARTIDO LIBERAL",
+      "votosPdf": 2
+    },
+    "7_22022": {
+      "numero": "22022",
+      "nome": "LUCAS DE LIMA DO AMOR SEM FIM",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "22",
+      "partidoNome": "PARTIDO LIBERAL",
+      "votosPdf": 7
+    },
+    "7_22067": {
+      "numero": "22067",
+      "nome": "ANDRE SALINEIRO",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "22",
+      "partidoNome": "PARTIDO LIBERAL",
+      "votosPdf": 20
+    },
+    "7_22121": {
+      "numero": "22121",
+      "nome": "ZÉ TEIXEIRA",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "22",
+      "partidoNome": "PARTIDO LIBERAL",
+      "votosPdf": 2
+    },
+    "7_22123": {
+      "numero": "22123",
+      "nome": "MARCIO FERNANDES",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "22",
+      "partidoNome": "PARTIDO LIBERAL",
+      "votosPdf": 5
+    },
+    "7_22163": {
+      "numero": "22163",
+      "nome": "LUCIANA DO FRETE",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "22",
+      "partidoNome": "PARTIDO LIBERAL",
+      "votosPdf": 1
+    },
+    "7_22190": {
+      "numero": "22190",
+      "nome": "SARGENTO BETÂNIA",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "22",
+      "partidoNome": "PARTIDO LIBERAL",
+      "votosPdf": 3
+    },
+    "7_22220": {
+      "numero": "22220",
+      "nome": "ANA PORTELA",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "22",
+      "partidoNome": "PARTIDO LIBERAL",
+      "votosPdf": 4
+    },
+    "7_22222": {
+      "numero": "22222",
+      "nome": "PAULO CORRÊA",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "22",
+      "partidoNome": "PARTIDO LIBERAL",
+      "votosPdf": 5
+    },
+    "7_22322": {
+      "numero": "22322",
+      "nome": "SARGENTO PRATES",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "22",
+      "partidoNome": "PARTIDO LIBERAL",
+      "votosPdf": 2
+    },
+    "7_22333": {
+      "numero": "22333",
+      "nome": "DAVERSON MATOS",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "22",
+      "partidoNome": "PARTIDO LIBERAL",
+      "votosPdf": 4
+    },
+    "7_22345": {
+      "numero": "22345",
+      "nome": "ODILON RIBEIRO",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "22",
+      "partidoNome": "PARTIDO LIBERAL",
+      "votosPdf": 1
+    },
+    "7_22357": {
+      "numero": "22357",
+      "nome": "WAGNER HIGA",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "22",
+      "partidoNome": "PARTIDO LIBERAL",
+      "votosPdf": 5
+    },
+    "7_22419": {
+      "numero": "22419",
+      "nome": "SILVANA TERENA",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "22",
+      "partidoNome": "PARTIDO LIBERAL",
+      "votosPdf": 1
+    },
+    "7_22456": {
+      "numero": "22456",
+      "nome": "ANA ABDO",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "22",
+      "partidoNome": "PARTIDO LIBERAL",
+      "votosPdf": 1
+    },
+    "7_22789": {
+      "numero": "22789",
+      "nome": "PROFESSOR WASHINGTON",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "22",
+      "partidoNome": "PARTIDO LIBERAL",
+      "votosPdf": 1
+    },
+    "7_22800": {
+      "numero": "22800",
+      "nome": "CORONEL DAVID",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "22",
+      "partidoNome": "PARTIDO LIBERAL",
+      "votosPdf": 11
+    },
+    "7_22822": {
+      "numero": "22822",
+      "nome": "VIVI TOBIAS",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "22",
+      "partidoNome": "PARTIDO LIBERAL",
+      "votosPdf": 5
+    },
+    "7_22900": {
+      "numero": "22900",
+      "nome": "TONY GOL",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "22",
+      "partidoNome": "PARTIDO LIBERAL",
+      "votosPdf": 2
+    },
+    "7_23000": {
+      "numero": "23000",
+      "nome": "DHEINE MARTINS",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "23",
+      "partidoNome": "CIDADANIA",
+      "votosPdf": 1
+    },
+    "7_23123": {
+      "numero": "23123",
+      "nome": "ADONIS",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "23",
+      "partidoNome": "CIDADANIA",
+      "votosPdf": 2
+    },
+    "7_30003": {
+      "numero": "30003",
+      "nome": "MARCOS GUIMARÃES",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "30",
+      "partidoNome": "PARTIDO NOVO",
+      "votosPdf": 1
+    },
+    "7_30008": {
+      "numero": "30008",
+      "nome": "DIEGO CARVALHO",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "30",
+      "partidoNome": "PARTIDO NOVO",
+      "votosPdf": 2
+    },
+    "7_30067": {
+      "numero": "30067",
+      "nome": "LUANA RIQUEZA",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "30",
+      "partidoNome": "PARTIDO NOVO",
+      "votosPdf": 2
+    },
+    "7_30330": {
+      "numero": "30330",
+      "nome": "LUCIMARA PALACIO",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "30",
+      "partidoNome": "PARTIDO NOVO",
+      "votosPdf": 1
+    },
+    "7_30888": {
+      "numero": "30888",
+      "nome": "PROF. LÉO",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "30",
+      "partidoNome": "PARTIDO NOVO",
+      "votosPdf": 1
+    },
+    "7_44044": {
+      "numero": "44044",
+      "nome": "PROFESSOR RINALDO MODESTO",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "44",
+      "partidoNome": "UNIÃO BRASIL",
+      "votosPdf": 6
+    },
+    "7_44111": {
+      "numero": "44111",
+      "nome": "BARBARA RESENDE",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "44",
+      "partidoNome": "UNIÃO BRASIL",
+      "votosPdf": 1
+    },
+    "7_44122": {
+      "numero": "44122",
+      "nome": "JERSON DOMINGOS",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "44",
+      "partidoNome": "UNIÃO BRASIL",
+      "votosPdf": 5
+    },
+    "7_44321": {
+      "numero": "44321",
+      "nome": "RAYANA BENEDITA",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "44",
+      "partidoNome": "UNIÃO BRASIL",
+      "votosPdf": 1
+    },
+    "7_44444": {
+      "numero": "44444",
+      "nome": "JULIANA ARANDA DA RU UNIFORMES",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "44",
+      "partidoNome": "UNIÃO BRASIL",
+      "votosPdf": 1
+    },
+    "7_44710": {
+      "numero": "44710",
+      "nome": "ELIEZER RODRIGUES",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "44",
+      "partidoNome": "UNIÃO BRASIL",
+      "votosPdf": 1
+    },
+    "7_45045": {
+      "numero": "45045",
+      "nome": "CARAVINA",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "45",
+      "partidoNome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA",
+      "votosPdf": 2
+    },
+    "7_45055": {
+      "numero": "45055",
+      "nome": "ÂNGELO GUERREIRO",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "45",
+      "partidoNome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA",
+      "votosPdf": 2
+    },
+    "7_45121": {
+      "numero": "45121",
+      "nome": "LAURA DA FIEL AMIGO",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "45",
+      "partidoNome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA",
+      "votosPdf": 3
+    },
+    "7_45234": {
+      "numero": "45234",
+      "nome": "EDSON NOGUEIRA",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "45",
+      "partidoNome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA",
+      "votosPdf": 2
+    },
+    "7_45300": {
+      "numero": "45300",
+      "nome": "PAULO DUARTE",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "45",
+      "partidoNome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA",
+      "votosPdf": 4
+    },
+    "7_45800": {
+      "numero": "45800",
+      "nome": "SILVIO PITU",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "45",
+      "partidoNome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA",
+      "votosPdf": 2
+    },
+    "7_70070": {
+      "numero": "70070",
+      "nome": "ROGÉRIO ROHR",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "70",
+      "partidoNome": "AVANTE",
+      "votosPdf": 2
+    },
+    "7_70100": {
+      "numero": "70100",
+      "nome": "RONALDINHO",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "70",
+      "partidoNome": "AVANTE",
+      "votosPdf": 1
+    },
+    "7_70123": {
+      "numero": "70123",
+      "nome": "VANILDO NEVES",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "70",
+      "partidoNome": "AVANTE",
+      "votosPdf": 1
+    },
+    "7_70333": {
+      "numero": "70333",
+      "nome": "BONATTO",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "70",
+      "partidoNome": "AVANTE",
+      "votosPdf": 2
+    },
+    "7_70555": {
+      "numero": "70555",
+      "nome": "LEINHA",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "70",
+      "partidoNome": "AVANTE",
+      "votosPdf": 2
+    },
+    "7_70700": {
+      "numero": "70700",
+      "nome": "CARINA SALOMÃO",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "70",
+      "partidoNome": "AVANTE",
+      "votosPdf": 1
+    },
+    "7_70777": {
+      "numero": "70777",
+      "nome": "LIDIO LOPES",
+      "cargoId": 7,
+      "cargoNome": "Deputado Estadual",
+      "partidoNumero": "70",
+      "partidoNome": "AVANTE",
+      "votosPdf": 2
+    },
+    "5_133": {
+      "numero": "133",
+      "nome": "VANDER LOUBET",
+      "cargoId": 5,
+      "cargoNome": "Senador",
+      "partidoNumero": "13",
+      "partidoNome": "PARTIDO DOS TRABALHADORES",
+      "votosPdf": 63
+    },
+    "5_221": {
+      "numero": "221",
+      "nome": "CAPITÃO CONTAR",
+      "cargoId": 5,
+      "cargoNome": "Senador",
+      "partidoNumero": "22",
+      "partidoNome": "PARTIDO LIBERAL",
+      "votosPdf": 153
+    },
+    "5_222": {
+      "numero": "222",
+      "nome": "REINALDO AZAMBUJA",
+      "cargoId": 5,
+      "cargoNome": "Senador",
+      "partidoNumero": "22",
+      "partidoNome": "PARTIDO LIBERAL",
+      "votosPdf": 151
+    },
+    "5_258": {
+      "numero": "258",
+      "nome": "VALTER DA COMAGRAN",
+      "cargoId": 5,
+      "cargoNome": "Senador",
+      "partidoNumero": "25",
+      "partidoNome": "PRD",
+      "votosPdf": 2
+    },
+    "5_277": {
+      "numero": "277",
+      "nome": "LUIZ LEMES",
+      "cargoId": 5,
+      "cargoNome": "Senador",
+      "partidoNumero": "27",
+      "partidoNome": "DEMOCRACIA CRISTÃ",
+      "votosPdf": 3
+    },
+    "5_300": {
+      "numero": "300",
+      "nome": "ROBERTO OSHIRO",
+      "cargoId": 5,
+      "cargoNome": "Senador",
+      "partidoNumero": "30",
+      "partidoNome": "PARTIDO NOVO",
+      "votosPdf": 39
+    },
+    "5_365": {
+      "numero": "365",
+      "nome": "DANIEL JUNIOR",
+      "cargoId": 5,
+      "cargoNome": "Senador",
+      "partidoNumero": "36",
+      "partidoNome": "Partido 36",
+      "votosPdf": 2
+    },
+    "5_400": {
+      "numero": "400",
+      "nome": "SORAYA",
+      "cargoId": 5,
+      "cargoNome": "Senador",
+      "partidoNumero": "40",
+      "partidoNome": "PSB",
+      "votosPdf": 78
+    },
+    "5_500": {
+      "numero": "500",
+      "nome": "BETO DO MOVIMENTO",
+      "cargoId": 5,
+      "cargoNome": "Senador",
+      "partidoNumero": "50",
+      "partidoNome": "PARTIDO SOCIALISMO E LIBERDADE",
+      "votosPdf": 6
+    },
+    "3_11": {
+      "numero": "11",
+      "nome": "EDUARDO RIEDEL",
+      "cargoId": 3,
+      "cargoNome": "Governador",
+      "partidoNumero": "11",
+      "partidoNome": "PROGRESSISTAS",
+      "votosPdf": 153
+    },
+    "3_13": {
+      "numero": "13",
+      "nome": "FÁBIO TRAD",
+      "cargoId": 3,
+      "cargoNome": "Governador",
+      "partidoNumero": "13",
+      "partidoNome": "PARTIDO DOS TRABALHADORES",
+      "votosPdf": 62
+    },
+    "3_25": {
+      "numero": "25",
+      "nome": "DELCIDIO AMARAL",
+      "cargoId": 3,
+      "cargoNome": "Governador",
+      "partidoNumero": "25",
+      "partidoNome": "PRD",
+      "votosPdf": 2
+    },
+    "3_27": {
+      "numero": "27",
+      "nome": "ECONOMISTA RENATO GOMES",
+      "cargoId": 3,
+      "cargoNome": "Governador",
+      "partidoNumero": "27",
+      "partidoNome": "DEMOCRACIA CRISTÃ",
+      "votosPdf": 4
+    },
+    "3_29": {
+      "numero": "29",
+      "nome": "DANIEL LEMES",
+      "cargoId": 3,
+      "cargoNome": "Governador",
+      "partidoNumero": "29",
+      "partidoNome": "PCO",
+      "votosPdf": 1
+    },
+    "3_30": {
+      "numero": "30",
+      "nome": "JOÃO HENRIQUE CATAN",
+      "cargoId": 3,
+      "cargoNome": "Governador",
+      "partidoNumero": "30",
+      "partidoNome": "PARTIDO NOVO",
+      "votosPdf": 26
+    },
+    "3_50": {
+      "numero": "50",
+      "nome": "LUCIEN REZENDE",
+      "cargoId": 3,
+      "cargoNome": "Governador",
+      "partidoNumero": "50",
+      "partidoNome": "PARTIDO SOCIALISMO E LIBERDADE",
+      "votosPdf": 1
+    }
+  }
+}
