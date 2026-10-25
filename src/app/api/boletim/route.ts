@@ -39,7 +39,7 @@ export async function GET(req: Request) {
 
     const buf = fs.readFileSync(boletimPath);
     const data = parseBoletimUrnaBuffer(buf, path.basename(boletimPath));
-    return NextResponse.json({ ...data, filePath: boletimPath });
+    return NextResponse.json({ ...data, fileName: path.basename(boletimPath) });
   } catch (error: any) {
     return NextResponse.json({ error: error.message || 'Erro ao processar Boletim de Urna' }, { status: 500 });
   }

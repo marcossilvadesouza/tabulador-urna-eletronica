@@ -1,9 +1,15 @@
 import { NextResponse } from 'next/server';
 import AdmZip from 'adm-zip';
+import path from 'path';
 import { parseBoletimUrnaBuffer } from '@/features/boletim-urna/services/bu-parser';
 import { parseLogJezBuffer } from '@/features/log-urna/services/log-parser';
 import { decodeAsn1Buffer } from '@/features/asn1-inspector/services/asn1-decoder';
 import { saveSecaoFile, listAllSecoes, padCode } from '@/features/storage/storage-service';
+
+const MAX_FILE_SIZE = 15 * 1024 * 1024; // 15MB limit
+const MAX_ZIP_ENTRIES = 25;
+const MAX_DECOMPRESSED_BYTES = 50 * 1024 * 1024; // 50MB limit
+const ALLOWED_EXTENSIONS = ['.zip', '.dat', '.bu', '.jez', '.vsc'];
 
 export async function POST(req: Request) {
   try {
@@ -13,10 +19,26 @@ export async function POST(req: Request) {
       return NextResponse.json({ error: 'Nenhum arquivo enviado' }, { status: 400 });
     }
 
+    if (file.size > MAX_FILE_SIZE) {
+      return NextResponse.json(
+        { error: 'Arquivo excede o tamanho máximo permitido de 15MB' },
+        { status: 413 }
+      );
+    }
+
+    const fileName = path.basename(file.name);
+    const fileNameLower = fileName.toLowerCase();
+
+    const isAllowedExt = ALLOWED_EXTENSIONS.some((ext) => fileNameLower.endsWith(ext));
+    if (!isAllowedExt) {
+      return NextResponse.json(
+        { error: 'Extensão de arquivo não permitida. Apenas .zip, .dat, .bu, .jez ou .vsc são aceitos.' },
+        { status: 400 }
+      );
+    }
+
     const arrayBuffer = await file.arrayBuffer();
     const buffer = Buffer.from(arrayBuffer);
-    const fileName = file.name;
-    const fileNameLower = fileName.toLowerCase();
 
     // Check if uploaded file is a ZIP package (like DadosDeUrna_...zip)
     const isZipPackage =
@@ -33,6 +55,30 @@ export async function POST(req: Request) {
 
       if (entries.length === 0) {
         return NextResponse.json({ error: 'O arquivo ZIP está vazio' }, { status: 400 });
+      }
+
+      if (entries.length > MAX_ZIP_ENTRIES) {
+        return NextResponse.json(
+          { error: 'O pacote ZIP contém arquivos em excesso.' },
+          { status: 400 }
+        );
+      }
+
+      let totalDecompressed = 0;
+      for (const entry of entries) {
+        if (entry.entryName.includes('..') || path.isAbsolute(entry.entryName)) {
+          return NextResponse.json(
+            { error: 'Caminho inválido detectado no pacote ZIP (Path Traversal prevenido).' },
+            { status: 400 }
+          );
+        }
+        totalDecompressed += entry.header.size;
+        if (totalDecompressed > MAX_DECOMPRESSED_BYTES) {
+          return NextResponse.json(
+            { error: 'Tamanho descompactado excede o limite de segurança.' },
+            { status: 413 }
+          );
+        }
       }
 
       let buEntry = entries.find(
@@ -67,12 +113,12 @@ export async function POST(req: Request) {
       let detectedSecao: string | null = null;
       let detectedTurno: 1 | 2 = 1;
 
-      // 1. Process BU entry first - most authoritative source for Zona, Seção and Turno!
+      // 1. Process BU entry first
       let buBuffer: Buffer | null = null;
       if (buEntry) {
         buBuffer = buEntry.getData();
         try {
-          buResult = parseBoletimUrnaBuffer(buBuffer, buEntry.entryName);
+          buResult = parseBoletimUrnaBuffer(buBuffer, path.basename(buEntry.entryName));
           const asn1Tree = decodeAsn1Buffer(buBuffer);
           asn1Root = asn1Tree[0];
 
@@ -98,7 +144,7 @@ export async function POST(req: Request) {
         }
       }
 
-      // 3. Fallback to entry name or zip name regex (e.g. o03220ba3306500520115...)
+      // 3. Fallback to entry name or zip name regex
       const nameToCheck = buEntry?.entryName || logEntry?.entryName || fileName;
       const nameMatch = nameToCheck.match(/o\d{5}[a-zA-Z]{2}\d{5}(\d{4})(\d{4})/i);
       if (nameMatch) {
@@ -126,31 +172,35 @@ export async function POST(req: Request) {
 
       // Save BU
       if (buEntry && buBuffer) {
-        const sRes = saveSecaoFile(buBuffer, buEntry.entryName, finalZona, finalSecao, detectedTurno, 'BOLETIM');
-        savedFiles.push(buEntry.entryName);
+        const safeEntryName = path.basename(buEntry.entryName);
+        const sRes = saveSecaoFile(buBuffer, safeEntryName, finalZona, finalSecao, detectedTurno, 'BOLETIM');
+        savedFiles.push(safeEntryName);
         if (sRes.overwritten) anyOverwritten = true;
       }
 
       // Save Log
       if (logEntry && logBuffer) {
-        const sRes = saveSecaoFile(logBuffer, logEntry.entryName, finalZona, finalSecao, detectedTurno, 'LOG');
-        savedFiles.push(logEntry.entryName);
+        const safeEntryName = path.basename(logEntry.entryName);
+        const sRes = saveSecaoFile(logBuffer, safeEntryName, finalZona, finalSecao, detectedTurno, 'LOG');
+        savedFiles.push(safeEntryName);
         if (sRes.overwritten) anyOverwritten = true;
       }
 
       // Save RDV
       if (rdvEntry) {
+        const safeEntryName = path.basename(rdvEntry.entryName);
         const rdvBuffer = rdvEntry.getData();
-        const sRes = saveSecaoFile(rdvBuffer, rdvEntry.entryName, finalZona, finalSecao, detectedTurno, 'RDV');
-        savedFiles.push(rdvEntry.entryName);
+        const sRes = saveSecaoFile(rdvBuffer, safeEntryName, finalZona, finalSecao, detectedTurno, 'RDV');
+        savedFiles.push(safeEntryName);
         if (sRes.overwritten) anyOverwritten = true;
       }
 
       // Save VSC
       if (vscEntry) {
+        const safeEntryName = path.basename(vscEntry.entryName);
         const vscBuffer = vscEntry.getData();
-        const sRes = saveSecaoFile(vscBuffer, vscEntry.entryName, finalZona, finalSecao, detectedTurno, 'VSC');
-        savedFiles.push(vscEntry.entryName);
+        const sRes = saveSecaoFile(vscBuffer, safeEntryName, finalZona, finalSecao, detectedTurno, 'VSC');
+        savedFiles.push(safeEntryName);
         if (sRes.overwritten) anyOverwritten = true;
       }
 
@@ -211,7 +261,6 @@ export async function POST(req: Request) {
         turno,
         turnoNome: turno === 1 ? '1º Turno' : '2º Turno',
         overwritten: saveRes.overwritten,
-        savedPath: saveRes.savedPath,
         secoes: allSecoes,
       });
     } else {
@@ -247,7 +296,6 @@ export async function POST(req: Request) {
           turno,
           turnoNome: turno === 1 ? '1º Turno' : '2º Turno',
           overwritten: saveRes.overwritten,
-          savedPath: saveRes.savedPath,
           secoes: allSecoes,
         });
       } catch (err: any) {

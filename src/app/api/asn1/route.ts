@@ -51,7 +51,6 @@ export async function GET(req: Request) {
 
     return NextResponse.json({
       fileName: path.basename(boletimPath),
-      filePath: boletimPath,
       fileSizeBytes: buf.length,
       nodesCount: totalNodes,
       root: nodes[0],
